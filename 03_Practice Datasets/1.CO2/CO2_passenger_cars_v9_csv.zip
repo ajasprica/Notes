@@ -1,0 +1,4005 @@
+
+
+
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie6 oldie"><![endif]-->
+<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie7 oldie"><![endif]-->
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" tal:attributes="lang language;" class="no-js ie8 oldie"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en"><!--<![endif]-->
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- viewport meta needed for proper view on an ipad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://plus.google.com/104345627234408209119" rel="publisher" />
+    <!--link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>-->
+    <!--link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext,latin" rel="stylesheet" type="text/css" />
+
+    
+    
+    
+
+    
+        <!-- traceview starttag --><script type="text/javascript">(function(){var b=this._tly={q:[],mark:function(a,c){b.q.push(["mark",a,c||(new Date).getTime()])},measure:function(a,c,e){b.q.push(["measure",a,c,e||(new Date).getTime()])},done:function(a){b.q.push(["done",a])},cid:"TWnhmS6Fq0gPV0WrYliVUVa1x4E=",xt:"1B3050555D9F1643B1FBA377D35805566E707D8B1872F2205E339B4ADB"};b.mark("firstbyte");this.onerror=function(a,c,e){b.measure(["_jserror ",a,"|",c,"|",e].join(""))};var d=this.attachEvent,f=this.addEventListener;var g=function(){b.measure("winload");b.done()};d?d("onload",g):f&&f("load",g,!1);var h=document.createElement("script");
+h.type="text/javascript";h.async=!0;h.src=("http:"===document.location.protocol?"http:":"https:")+"//d2gfdmu30u15x7.cloudfront.net/1/tly.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(h,i);}());</script>
+
+<meta name="DC.description" content="The Regulation (EC) No 443/2009 requires Member States to record information for each new passenger car registered in its territory. Every year, each Member State shall submit to the Commission all the information related to their new registrations. In particular, the following details are required for each new passenger car registered: manufacturer name, type approval number, type, variant, version, make and commercial name, specific emissions of CO2, mass of the vehicle, wheel base, track width, engine capacity, fuel type and fuel mode. Additional information, such as engine power, were also submitted. 
+Data for EU-28 are reported in the main database. 
+" />
+<meta name="DC.rights" content="EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (http://www.eea.europa.eu/legal/copyright). Copyright holder: Directorate-General for Climate Action (DG-CLIMA)." />
+<meta name="description" content="The Regulation (EC) No 443/2009 requires Member States to record information for each new passenger car registered in its territory. Every year, each Member State shall submit to the Commission all the information related to their new registrations. In particular, the following details are required for each new passenger car registered: manufacturer name, type approval number, type, variant, version, make and commercial name, specific emissions of CO2, mass of the vehicle, wheel base, track width, engine capacity, fuel type and fuel mode. Additional information, such as engine power, were also submitted. 
+Data for EU-28 are reported in the main database. 
+" />
+<meta name="DC.format" content="text/plain" />
+<meta name="DC.type" content="Data" />
+<meta name="DC.date.valid_range" content="2015/04/15 - 2015/11/26" />
+<meta name="keywords" content="co2 emissions, passenger cars, road transport, cars" />
+<meta name="DC.date.modified" content="2016-02-02T12:13:19+02:00" />
+<meta name="DC.subject" content="co2 emissions, passenger cars, road transport, cars" />
+<meta name="DC.date.created" content="2015-04-13T15:53:55+02:00" />
+<meta name="DC.language" content="en" />
+
+  
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974009206057.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974012247086.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974013262033.css" />
+        <!--[if lt IE 9]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974013441086.css" media="screen" />
+        <![endif]-->
+    
+        <!--[if IE 7]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974013504982.css" media="screen" />
+        <![endif]-->
+    
+        <!--[if IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974013567924.css" media="screen" />
+        <![endif]-->
+    
+        <!--[if IE 9]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://www.eea.europa.eu/portal_css/EEADesign2006/ploneStyles1466092974013631105.css" media="screen" />
+        <![endif]-->
+    
+
+  
+  
+    <script type="text/javascript" src="http://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1466092928199315071.js"></script>
+    <script type="text/javascript" src="http://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1466092928204478025.js"></script>
+    <script type="text/javascript" src="http://www.eea.europa.eu/portal_javascripts/EEADesign2006/ploneScripts1466092928205471039.js"></script>
+
+
+<title>
+  Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+  &mdash;
+
+  European Environment Agency
+</title>
+
+            <link rel="canonical" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.eea.europa.eu/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.eea.europa.eu/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script>
+
+
+
+    <link rel="alternate" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/atom.xml" title="Monitoring of CO2 emissions from passenger cars – Regulation 443/2009 - Atom" type="application/rss+xml" />
+
+    <link rel="alternate" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/rss.xml" title="Monitoring of CO2 emissions from passenger cars – Regulation 443/2009 - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/RSS" title="Monitoring of CO2 emissions from passenger cars – Regulation 443/2009 - RSS 1.0" type="application/rss+xml" />
+
+
+    <link rel="search" href="http://www.eea.europa.eu/search_form" title="Search this site" />
+
+
+
+
+        
+
+        
+
+        
+            
+                
+            
+            
+                <base href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/" /><!--[if lt IE 7]></base><![endif]-->
+            
+        
+
+        
+
+        
+    <!-- dummy used until eea.pagedesign is installed, this file can be removed later -->
+
+
+        
+        
+
+        
+
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+
+    <script type="text/javascript"> context_url='http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8';</script>
+
+</head>
+
+<body class="template-dataset_view portaltype-data site-SITE section-data-and-maps subsection-data subsection-data-co2-cars-emission-8 icons-on userrole-anonymous en" dir="ltr">
+
+<div id="print-warning">
+    <p>Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!</p>
+</div>
+
+<a class="eea-template back-to-toc-button link-without-style" href="#document-toc" title="Back to table of contents"></a>
+
+<div id="header-holder">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div id="portal-top">
+                        
+                            <!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Personal tools</p>
+
+
+
+
+
+</div>
+
+<div id="cross-site-top">
+   
+    <ul id="portal-externalsites">
+        <li id="externalsites-networks">
+            <a href="#">Networks</a>
+        </li>
+    </ul>
+    <div class="panel" id="tip-externalsites-networks" style="width:450px; margin-left: 10em;">
+        <div class="panel-top" style="left: -195px;"><!-- --></div>
+        <div class="panel-content shadow">
+            <dl class="portlet networkSites">
+                <dt>Networks</dt>
+                <dd>
+                    <ul>
+                        <li id="externalsites-eionet">
+                            <a title="Eionet" accesskey="" href="http://www.eionet.europa.eu/">Eionet</a>
+                        </li>
+                        <li id="externalsites-epanet">
+                            <a title="EPA network" accesskey="" href="http://epanet.ew.eea.europa.eu/">Network of the Heads of Environment Protection Agencies (EPA network)</a>
+                        </li>
+                        <li id="externalsites-envirowindows">
+                            <a title="Partnerships beyond Eionet (PBE)" accesskey="" href="http://ew.eea.europa.eu/">Partnerships beyond Eionet (PBE)</a>
+                        </li>
+                        <li id="seis-network">
+                            <a title="SEIS network" accesskey="" href="http://www.eea.europa.eu/about-us/what/shared-environmental-information-system">Shared Environmental Information System (SEIS)</a>
+                        </li>
+                    </ul>
+                </dd>
+                <dt>
+                    European Topic Centres (ETCs)
+                </dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <a href="http://acm.eionet.europa.eu">Air pollution and Climate Change mitigation (ACM)</a>
+                        </li>
+                        <li>
+                            <a href="http://bd.eionet.europa.eu">Biological Diversity (BD)</a>
+                        </li>
+                        <li>
+                            <a href="http://cca.eionet.europa.eu">Climate Change Impacts, Vulnerability and Adaptation (CCA)</a>
+                        </li>
+                        <li>
+                            <a href="http://icm.eionet.europa.eu">Inland, Coastal and Marine waters (ICM)</a>
+                        </li>
+                        <li>
+                            <a href="http://sia.eionet.europa.eu">Urban, Land and Soil systems (ULS)</a>
+                        </li>
+                        <li>
+                            <a href="http://etc-wmge.vito.be">Waste and Materials in a Green Economy (WMGE)</a>
+                        </li>
+                    </ul>
+                </dd>
+                <dt class="hiddenStructure">
+                    More networks
+                </dt>
+                <dd style="padding-bottom: 0.5em" class="portletFooter">
+                    <a class="moreLink" href="http://www.eea.europa.eu/about-us/key-partners">EU partners</a>&nbsp;&nbsp;
+                    <a class="moreLink" href="http://www.eea.europa.eu/about-us/international-cooperation">International cooperation</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-subscriptions"><a href="http://www.eea.europa.eu/subscription" title="Subscriptions" accesskey="">
+                           <span class="eea-icon eea-icon-lg"><!-- --></span>
+                           
+       Subscriptions</a></li>
+    <li id="siteaction-formobile"><a href="http://www.eea.europa.eu/mobile" title="Mobile" accesskey="">
+                           <span class="eea-icon eea-icon-lg"><!-- --></span>
+                           
+       Mobile</a></li>
+    <li id="siteaction-contactus"><a href="http://www.eea.europa.eu/address.html" title="Contact us" accesskey="">
+                           <span class="eea-icon eea-icon-lg"><!-- --></span>
+                           
+       Contact us</a></li>
+    <li id="siteaction-chooselang"><a href="http://www.eea.europa.eu/chooselang" title="EEA homepage in your language" accesskey="">
+                           <span class="eea-icon eea-icon-lg"><!-- --></span>
+                           
+       EEA homepage in your language</a></li>
+    <li id="siteaction-login"><a href="http://www.eea.europa.eu/login" title="Log in" accesskey="">
+                           <span class="eea-icon eea-icon-lg"><!-- --></span>
+                           
+       Log in</a></li>
+</ul>
+
+   
+
+        <div id="js-siteaction-panels">
+            <div class="panel" id="tip-siteaction-subscriptions" style="width: 240px">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    
+                      <div>
+
+<dl class="portlet portlet-subscribtion">
+
+      <dt>Subscriptions</dt>
+      <dd class="portletItem">
+        <span><span><a href="http://www.eea.europa.eu/subscription/targeted-subscription">Sign up</a></span> to receive our reports (print and/or electronic) and quarterly e-newsletter.</span>
+      </dd>
+
+        <dt>Follow us</dt>
+        <dd>
+            <img alt="Twitter icon" src="http://www.eea.europa.eu/twitter16x16.png"/> <a href="http://twitter.com/euenvironment">Twitter</a>
+        </dd>
+        <dd>
+            <img alt="Facebook icon" src="http://www.eea.europa.eu/facebook-icon.png"/> <a href="http://www.facebook.com/pages/European-Environment-Agency/113006845445297">Facebook</a>
+        </dd>
+        <dd>
+            <img alt="YouTube icon" src="http://www.eea.europa.eu/youtube16x16.png"/> <a href="http://www.youtube.com/user/EEAvideos">YouTube channel</a>
+        </dd>
+        <dd>
+            <img alt="RSS logo" src="http://www.eea.europa.eu/rss.gif"/> <a href="http://www.eea.europa.eu/subscription/news-feeds">
+            <span>RSS Feeds</span></a>
+        </dd>
+
+        <dd class="portletFooter" style="padding-bottom: 0.5em">
+            <a href="http://www.eea.europa.eu/subscription" class="moreLink">
+               <span>More</span></a>
+        </dd>
+
+</dl>
+
+</div>
+                    
+                </div>
+            </div>
+          <div id="tip-siteaction-formobile" class="panel">
+              <div class="panel-top">
+                  <!-- -->
+              </div>
+              <div class="panel-content shadow">
+                  <a href="/www/mobile" title="Mobile apps">Mobile apps</a>
+              </div>
+            </div>
+
+            <div class="panel" id="tip-siteaction-contactus" style="width: 420px">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    <table>
+                        <tr>
+                            <td style="width: 45%;">
+                                <h2>
+                                    <span class="eea-icon eea-icon-lg eea-icon-envelope"></span>
+                                    Write to us
+                                </h2>
+                                <p>
+                                    <strong>For the public:</strong>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a target="_self" href="http://www.eea.europa.eu/help/infocentre/enquiries/">Ask your question <br/></a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <br/>
+                                <strong style="white-space: nowrap">For media and journalists:</strong>
+                                <br/>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a target="_self" href="http://www.eea.europa.eu/pressroom">Press room <br/></a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <br/>
+                                <a class="internal-link" title="Staff list" href="http://www.eea.europa.eu/about-us/who/staff-list">
+                                    <strong>Contact EEA staff</strong>
+                                </a>
+                                <br/>
+                                <a class="internal-link" href="http://www.eea.europa.eu/help/contact-info">
+                                    <strong>Contact the web team</strong>
+                                </a>
+                                <br/>
+                                <a class="internal-link" href="http://www.eea.europa.eu/help/eea-help-centre/faqs">
+                                    <strong>FAQ</strong>
+                                </a>
+                                <br/>
+                            </td>
+                            <td style="vertical-align: top;">
+                                <br/>
+                            </td>
+                            <td style="vertical-align: top;">
+                                <h2>
+                                    <span class="eea-icon eea-icon-lg eea-icon-phone"></span>
+                                    Call us
+                                </h2>
+                                <strong>Reception:</strong>
+                                    <br/>
+                                    <br/>
+                                <strong>Phone:</strong>
+                                (+45) 33 36 71 00
+                                <br/>
+                                <strong>Fax:</strong>
+                                (+45) 33 36 71 99
+                                <br/>
+                                <br/>
+                                <strong>
+                                    <a target="_self" href="http://www.eea.europa.eu/help/infocentre/index_html">
+                                        <br/>
+                                    </a>
+                                </strong>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="portletFooter">
+                        <a class="moreLink" href="http://www.eea.europa.eu/address.html">
+                            <span>More</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="tip-siteaction-chooselang" style="width: 125px">
+                <div class="panel-top">
+                    <!-- -->
+                </div>
+                <div class="panel-content shadow">
+                    
+                    <ul id="chooselang">
+                        
+                        <li><a href="http://www.eea.europa.eu/bg" title="Bulgarian">Български (bg)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/cs" title="Czech">čeština (cs)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/hr" title="Croatian">Hrvatski (hr)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/da" title="Danish">dansk (da)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/nl" title="Dutch">Nederlands (nl)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/el" title="Greek">ελληνικά (el)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu" title="English">English (en)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/et" title="Estonian">eesti (et)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/fi" title="Finnish">Suomi (fi)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/fr" title="French">Français (fr)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/de" title="German">Deutsch (de)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/hu" title="Hungarian">magyar (hu)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/is" title="Icelandic">Íslenska (is)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/it" title="Italian">italiano (it)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/lv" title="Latvian">Latviešu (lv)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/lt" title="Lithuanian">lietuvių (lt)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/mt" title="Maltese">Malti (mt)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/no" title="Norwegian">Norsk (no)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/pl" title="Polish">polski (pl)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/pt" title="Portuguese">Português (pt)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/ro" title="Romanian">Română (ro)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/sk" title="Slovak">slovenčina (sk)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/sl" title="Slovenian">Slovenščina (sl)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/es" title="Spanish">Español (es)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/sv" title="Swedish">Svenska (sv)</a></li>
+                        
+                        <li><a href="http://www.eea.europa.eu/tr" title="Turkish">Türkçe (tr)</a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+
+        </div>
+        
+
+   <div class="visualClear"><!-- &nbsp; --></div>
+</div>
+
+
+
+  <div id="popup_login_form" style="display:none;">
+    
+
+        <dl class="portalMessage error" id="enable_cookies_message" style="display:none">
+            <dt>Error</dt>
+            <dd>Cookies are not enabled. You must enable cookies before you can log in.</dd>
+        </dl>
+
+        
+
+        <div class="portalMessage informationMessage">
+            
+                <p>The EEA Web CMS works best with following browsers:</p>
+                <div id="cms-browsers-links">
+                    <ul>
+                        <li id="cms-chrome">
+                            Google Chrome (recommended)
+                        </li>
+                        <li id="cms-firefox">
+                            Firefox
+                        </li>
+                    </ul>
+                    <p class="discreet">Internet Explorer is not recommended for the CMS area.</p>
+                </div>
+            
+        </div>
+
+            <form class="enableAutoFocus" method="post" id="login_form" action="https://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/login_form">
+
+                <div id="login-form">
+
+                    <input type="hidden" name="came_from" value="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8" />
+
+                    <input type="hidden" name="next" />
+
+                    <input type="hidden" name="ajax_load" />
+
+                    <input type="hidden" name="ajax_include_head" />
+
+                    <input type="hidden" name="target" />
+
+                    <input type="hidden" name="mail_password_url" />
+
+                    <input type="hidden" name="join_url" />
+                    <input type="hidden" name="form.submitted" value="1" />
+                    <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+                    <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+                    <input type="hidden" name="login_name" id="login_name" value="" />
+                    <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+
+                    <div class="field">
+
+                        <label for="__ac_name">Login Name</label>
+
+                        
+
+                        
+
+                        <input type="text" size="15" name="__ac_name" id="__ac_name" value="" />
+
+                </div>
+
+                <div class="field">
+
+                        <label for="__ac_password">Password</label>
+
+                        
+
+                        <input type="password" size="15" name="__ac_password" id="__ac_password" />
+                </div>
+
+                    
+
+                    <div class="formControls">
+
+                        <input class="context" type="submit" name="submit" value="Log in" />
+
+                    </div>
+
+                </div>
+
+            </form>
+
+            
+
+            
+
+            <div id="login-forgotten-password">
+                <strong>Forgot your password?</strong>
+                <p class="discreet">If you have forgotten your password, <span>
+                        <a href="http://www.eea.europa.eu/mail_password_form?userid=">we can send you a new one</a></span>.</p>
+            </div>
+
+            
+
+        
+  </div>
+
+
+<div class="eea-i18n-js hiddenElem">
+    <div id="eeaPaginationNext">next</div>
+    <div id="eeaPaginationPrev">previous</div>
+    <div id="eeaPaginationItems">items</div>
+</div>
+
+<div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/#eea-portlet-navigation-tree">Skip to navigation</a>
+</p>
+
+<h2 id="logo-en" class="portal-logo">
+
+    <a href="http://www.eea.europa.eu" accesskey="1" id="portal-logo-link" title="European Environment Agency">
+        <img src="http://www.eea.europa.eu/++resource++eea.translations.images/pdflogo-en.png" alt="European Environment Agency" id="printLogo" />
+    </a>
+</h2>
+
+<h3 class="site-description">Sound and independent information<br /> on the environment</h3>
+
+<!-- THE SEARCHBOX DEFINITION -->
+<div id="portal-searchbox">
+    <form action="http://glossary.en.eea.europa.eu/terminology/sitesearch" id="searchbox_terminology" class="searchforms">
+            <span class="eea-icon eea-icon-search">&nbsp;</span>
+            <input type="text" name="term" size="35" title="Search Europe's environment" class="searchField"  />
+            <input class="searchButton" type="submit" value="Search" />
+    </form>
+      <a id="search_advanced_link" href="http://www.eea.europa.eu/help/advanced-search" class="pull-left"                >Advanced search</a>
+      <a id="search_glossary_link" class="pull-right" href="http://glossary.en.eea.europa.eu" >A-Z Glossary</a>
+</div>
+
+<script type="text/javascript">var object_archived = true;;</script>
+
+</div>
+
+
+     <div id="globalnav-holder">
+        <h5 class="hiddenStructure">Sections</h5>
+        <ul id="portal-globalnav">
+
+            
+                
+                    <li id="portaltab-themes" class="plain">
+                     <a href="/themes" title="Explore by environmental topics">Topics</a>
+                    </li>
+                
+
+                             
+                
+            
+                
+                    <li id="portaltab-data-and-maps" class="current">
+                     <a href="/data-and-maps" title="Environmental data, charts, maps, indicators and interactive data applications">Data and maps</a>
+                    </li>
+                
+
+                             
+                
+            
+                
+                    <li id="portaltab-indicators" class="plain">
+                     <a href="/data-and-maps/indicators/" title="">Indicators</a>
+                    </li>
+                
+
+                             
+                
+            
+                
+                    <li id="portaltab-reports" class="plain">
+                     <a href="/publications" title="">Publications</a>
+                    </li>
+                
+
+                             
+                
+            
+                
+                    <li id="portaltab-media" class="plain">
+                     <a href="/media" title="">Media</a>
+                    </li>
+                
+
+                             
+                
+            
+                
+                    <li id="portaltab-abouteea" class="plain">
+                     <a href="/about-us" title="">About EEA</a>
+                    </li>
+                
+
+                             
+                
+            
+                
+                    <li id="portaltab-europe" class="plain">
+                     <a href="http://europa.eu/about-eu/agencies" title="">The EEA is an agency of the European Union</a>
+                    </li>
+                
+
+                             
+                
+            
+        </ul>
+    </div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="eea-above-columns"><nav id="portal-breadcrumbs" class="plone-breadcrumb">
+  <div class="container">
+    <span id="breadcrumbs-you-are-here" class="hiddenStructure">You are here:</span>
+    <ol aria-labelledby="breadcrumbs-you-are-here">
+      <li id="breadcrumbs-home">
+        <a title="Home" href="http://www.eea.europa.eu">
+            <i class="eea-icon eea-icon-home"></i>
+        </a>
+      </li>
+      <li id="breadcrumbs-1">
+        
+          <a href="http://www.eea.europa.eu/data-and-maps" title="Data and maps">Data and maps</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-2">
+        
+          <a href="http://www.eea.europa.eu/data-and-maps/data" title="Datasets">Datasets</a>
+          
+        
+      </li>
+      <li id="breadcrumbs-3">
+        
+          
+          <span id="breadcrumbs-current">Monitoring of CO2 emissions ...</span>
+        
+      </li>
+    </ol>
+  </div>
+</nav></div>
+<div id="visual-portal-wrapper">
+
+        <div id="portal-columns" class="row">
+
+        <!-- start of the main and left columns -->
+        <div id="visual-column-wrapper">
+
+        <div id="portal-column-content" class="cell width-3:4 position-0">
+
+            
+                
+                    <div id="viewlet-above-content">
+
+
+<div id="eea-alchemy-modalEnabled"></div>
+
+
+</div>
+                
+            
+
+            
+                <div id="region-content" class="">
+
+                    
+                        
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+    
+
+
+                    
+                        <div id="content"  class="documentContent panels wf-state-published">
+
+                            
+
+                            
+
+                             
+                             
+                                 
+                                 
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                </h1>
+            
+            
+        
+                             
+                            
+                                
+                                    
+
+    <div class="documentExportActions">
+        
+
+            <ul>
+                  <li id="export-action-download_pdf">
+                      <a class="pull-left" rel="nofollow" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/download.pdf" title="Download as PDF">
+                        <span class="eea-icon eea-icon-3x eea-icon-file-pdf-o"></span>
+                        <span class="export-action-title">PDF</span>
+                      </a>
+                  </li>
+            </ul>
+        
+
+    </div>
+
+
+<!-- LANGUAGE SWITCHER DEFINITION -->
+
+
+    
+
+        
+
+        
+    
+
+
+
+    <div class="documentByLine" id="plone-document-byline">
+
+        <noscript>
+          
+          <div class="portalMessage warning">This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser.</div>
+        </noscript>
+
+        
+            <span class="portalType">Data</span>
+
+            
+
+            
+
+            
+                <span class="byline-separator"></span>
+                <span class="state-expired">expired</span>
+            
+            <span class="docDate creationDate">
+                <span class="byline-separator"></span>
+                Created 13 Apr 2015
+            </span>
+            <span class="docDate publishDate">
+                <span class="byline-separator"></span>
+                Published 15 Apr 2015
+            </span>
+            <span class="docDate modificationDate">
+                   <span class="byline-separator"></span>
+                   Last modified 02 Feb 2016, 11:13 AM
+            </span>
+        
+        <br />
+        
+        
+    </div>
+
+
+
+
+
+    
+    
+    
+
+            <div class="eea-available-version">
+
+                <!-- Information about new versions -->
+                
+                    
+                        <div class="portalMessage warningMessage">
+                            
+                                <strong>Note: new version is available!</strong>
+                                
+                            
+
+                            <div>
+                                <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-10">Monitoring of CO2 emissions from passenger cars – Regulation 443/2009</a>
+                            </div>
+
+                            
+                        </div>
+                    
+                
+
+            </div>
+
+        
+
+
+
+
+<!-- environmental topics tags -->
+
+
+    
+
+      <div class="documentByLine" id="themes-tags">
+            <span class="listHead">Topics:</span>
+            
+              <span>
+                <a class="link-category" rel="tag" href="http://www.eea.europa.eu/themes/climate">Climate change</a>
+                  <span class="separator">, </span>
+              </span>
+            
+              <span>
+                <a class="link-category" rel="tag" href="http://www.eea.europa.eu/themes/transport">Transport</a>
+                  <span class="separator">, </span>
+              </span>
+            
+      </div>
+
+    
+
+
+<div class="archive_status portalMessage attentionMessage">This content has been archived on <span>26 Nov 2015</span>, reason: <span>
+    Other
+    (New version data-and-maps/data/co2-cars-emission-9 was published)
+  </span></div>
+
+                                
+                            
+
+                             
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   The Regulation (EC) No 443/2009 requires Member States to record information for each new passenger car registered in its territory. Every year, each Member State shall submit to the Commission all the information related to their new registrations. In particular, the following details are required for each new passenger car registered: manufacturer name, type approval number, type, variant, version, make and commercial name, specific emissions of CO2, mass of the vehicle, wheel base, track width, engine capacity, fuel type and fuel mode. Additional information, such as engine power, were also submitted. 
+Data for EU-28 are reported in the main database. 
+
+                </div>
+            
+            
+        
+                             
+
+                             
+                             <div id="content-core">
+                                 <div>
+
+    <!-- Tables -->
+    <div class="paginate">
+    
+        
+        <h3>European data</h3>
+            <div>
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2014 - Provisional data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">417939</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mh</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MAN</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Total new registrations</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>m (kg)</td>
+<td>Mass</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>e (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>w (mm)</td>
+<td>Wheel Base</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at2 (mm)</td>
+<td>Axle width other axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ec (cm3)</td>
+<td>Engine capacity</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ep (KW)</td>
+<td>Engine power</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v9_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">7.84 MB</span>
+                                    <a class="feedback-survey google-analytics" id="bf92e722888a4d1ca287bebe930e74df" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from/co2_passenger_cars_v9_mdb.zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v9_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v9_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">5.76 MB</span>
+                                    <a class="feedback-survey google-analytics" id="9650cfe81e91427bb00a2b10e73bef2b" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from/co2_passenger_cars_v9_csv.zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v9_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2013 - Final data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">442475</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mh</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MAN</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Total new registrations</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>m (kg)</td>
+<td>Mass</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>e (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>w (mm)</td>
+<td>Wheel Base</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at2 (mm)</td>
+<td>Axle width other axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ec (cm3)</td>
+<td>Engine capacity</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ep (KW)</td>
+<td>Engine power</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v8_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">5.78 MB</span>
+                                    <a class="feedback-survey google-analytics" id="ba7de681593a495489e005326081370f" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2013-final/co2_passenger_cars_v8_csv.zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v8_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v8_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">8.09 MB</span>
+                                    <a class="feedback-survey google-analytics" id="83602c6d269143adaaf43407b8193efb" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2013-final/co2_passenger_cars_v8_mdb.zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v8_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2013 - Provisional data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">442475</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mh</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MAN</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Total new registrations</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>m (kg)</td>
+<td>Mass</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>e (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>w (mm)</td>
+<td>Wheel Base</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at2 (mm)</td>
+<td>Axle width other axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ec (cm3)</td>
+<td>Engine capacity</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ep (KW)</td>
+<td>Engine power</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v7_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">8.90 MB</span>
+                                    <a class="feedback-survey google-analytics" id="bd21357c9fc94277aaba2f4b74406e67" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2013-prov/co2_passenger_cars_v7_mdb.zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v7_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v7_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">6.17 MB</span>
+                                    <a class="feedback-survey google-analytics" id="1566e2ddf99d4fb28549e882ad2d0470" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2013-prov/co2_passenger_cars_v7_csv.zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v7_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2012 - Final data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">375415</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mh</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MAN</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Total new registrations</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>m (kg)</td>
+<td>Mass</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>e (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>w (mm)</td>
+<td>Wheel Base</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at2 (mm)</td>
+<td>Axle width other axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ec (cm3)</td>
+<td>Engine capacity</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ep (KW)</td>
+<td>Engine power</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v6_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">7.34 MB</span>
+                                    <a class="feedback-survey google-analytics" id="186d056f2a494bbdbd71283ab5fd9b84" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2012-final/CO2-passenger-cars-v6-mdb/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v6_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v6_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">5.22 MB</span>
+                                    <a class="feedback-survey google-analytics" id="7f55bb0aee314d208d01a76f3406955c" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2012-final/CO2-passenger-cars-v6-csv/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v6_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2012 - Provisional data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">375415</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mh</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MAN</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Total new registrations</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>m (kg)</td>
+<td>Mass</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>e (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>w (mm)</td>
+<td>Wheel Base</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at2 (mm)</td>
+<td>Axle width other axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ec (cm3)</td>
+<td>Engine capacity</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ep (KW)</td>
+<td>Engine power</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v5_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">7.33 MB</span>
+                                    <a class="feedback-survey google-analytics" id="032fd432f4304617b569b20a5b7931e0" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-data-2012-prov/CO2-passenger-cars-v5-mdb/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v5_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v5_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">5.24 MB</span>
+                                    <a class="feedback-survey google-analytics" id="6145f0c835224f16861610ce2334b50e" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-data-2012-prov/CO2-passenger-cars-v5-csv/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v5_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2011 - Final data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">338558</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mh</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MAN</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Total new registrations</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>m (kg)</td>
+<td>Mass</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>e (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>w (mm)</td>
+<td>Wheel Base</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>at2 (mm)</td>
+<td>Axle width other axle</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ec (cm3)</td>
+<td>Engine capacity</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>ep (KW)</td>
+<td>Engine power</td>
+<td>integer</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v4_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">7.88 MB</span>
+                                    <a class="feedback-survey google-analytics" id="e12946faccbf442788a16d416d08c87d" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2011-final/microsoft-access-format-zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v4_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v4_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">4.71 MB</span>
+                                    <a class="feedback-survey google-analytics" id="b77246188b2a46c49a8fc09edf00b22b" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2011-final/ascii-delimited-zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v4_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2011 - Provisional data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">338558</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MH</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Man</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Total new registrations</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>M (kg)</td>
+<td>Mass</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>W (mm)</td>
+<td>Wheel Base</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>At1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>At2 (mm)</td>
+<td>Axle width other axle</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ec (cm3)</td>
+<td>Engine capacity</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TAN</td>
+<td>Type approval number</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ep (KW)</td>
+<td>Engine power</td>
+<td>int</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v3_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">6.60 MB</span>
+                                    <a class="feedback-survey google-analytics" id="336638c1ed6f4e189f85dd2e39f0f1c5" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2011-provisional/CO2_passenger_cars_v3_mdb/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v3_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v3_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">4.79 MB</span>
+                                    <a class="feedback-survey google-analytics" id="18d29d513f10472b939f2ba578b681df" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2011-provisional/CO2_passenger_cars_v3_csv/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v3_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2010 - Final data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">285764</span>)
+                                
+                            </p>
+                            <div class="table-definition-body"><table class="datatable listing" id="tabledef">
+<thead>
+<tr><th>Field name</th><th>Field Definition</th><th>Data type</th><th>Primary key</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MH</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Man</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Total new registrations</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>M (kg)</td>
+<td>Mass</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>W (mm)</td>
+<td>Wheel Base</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>At1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>At2 (mm)</td>
+<td>Axle width other axle</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ec (cm3)</td>
+<td>Engine capacity</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p> </p></div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v2_mdb.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">6.80 MB</span>
+                                    <a class="feedback-survey google-analytics" id="cdd23057cd89413fa403064fb9297e94" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2010-final/microsoft-access-format-zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v2_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>CO2_passenger_cars_v2_csv.zip</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">4.04 MB</span>
+                                    <a class="feedback-survey google-analytics" id="ecdbd6323b4243b1be545adc37640062" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2010-final/ascii-delimited-zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v2_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+                    <div>
+                        <h5 class="datatable-title">Monitoring of CO2 emissions from passenger cars - Data 2010 - Provisional data</h5>
+                        
+
+                        
+                            <p>
+                                <span class="table-definition-show" >[+]</span>
+                                <span>Show table definition</span>
+                                
+                                    (<span class="table-records">records:</span>
+                                    &nbsp;
+                                    <span class="table-records">286960</span>)
+                                
+                            </p>
+                            <div class="table-definition-body">
+<table id="tabledef" class="datatable listing">
+<thead>
+<tr>
+<th>Field name</th>
+<th>Field Definition</th>
+<th>Data type</th>
+<th>Primary key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Member state</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MP</td>
+<td>Manufacturer pooling</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MH</td>
+<td>Manufacturer harmonised</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Man</td>
+<td>Manufacturer name OEM declaration</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>MMS</td>
+<td>Manufacturer name as in MS registry</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Va</td>
+<td>Variant</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ve</td>
+<td>Version</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Mk</td>
+<td>Make</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cn</td>
+<td>Commercial name</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ct</td>
+<td>Category of the vehicle type approved</td>
+<td>varchar(2)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Total new registrations</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>M (kg)</td>
+<td>Mass</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E (g/km)</td>
+<td>Specific CO<sub>2</sub> Emissions</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>W (mm)</td>
+<td>Wheel Base</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>At1 (mm)</td>
+<td>Axle width steering axle</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>At2 (mm)</td>
+<td>Axle width other axle</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ft</td>
+<td>Fuel type</td>
+<td>varchar(120)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Fm</td>
+<td>Fuel mode</td>
+<td>varchar(1)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ec (cm3)</td>
+<td>Engine capacity</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Z (Wh/km)</td>
+<td>Electric energy consumption</td>
+<td>Integer</td>
+<td>No</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>Innovative technology or group of innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Er (g/km)</td>
+<td>Emissions reduction through innovative technologies</td>
+<td>varchar(255)</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div>
+                        
+
+                        <ul>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>Microsoft Access format (zip)</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">6.45 MB</span>
+                                    <a class="feedback-survey google-analytics" id="dcdc2c164209491d9bcb44d5f008b0ae" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2010-prov/microsoft-access-format-zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v1_mdb.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+                                <li>
+
+                                    <strong>
+                                        <img src="http://www.eea.europa.eu/zip.png"/>
+                                        <span>Ascii delimited (zip)</span>
+                                    </strong>
+
+                                    <span>(ZIP archive)</span>
+                                    <br />
+                                    <span style="padding-left: 2em;">4.09 MB</span>
+                                    <a class="feedback-survey google-analytics" id="e38d97ad5a3e401b84b82c471c97c516" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/monitoring-of-co2-emissions-from-2010-prov/ascii-delimited-zip/at_download/file">
+                                        <span>Download file</span>
+                                        <span style="display: none" class="google-analytics-path">/data-and-maps/data/ga-downloads/TNYW84QI3A/co2-cars-emission-8/CO2_passenger_cars_v1_csv.zip</span>
+                                    </a>
+                                    
+                                </li>
+                            
+
+                            
+
+                            
+
+                            
+                        </ul>
+                    </div>
+
+                
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        <h3>Metadata</h3>
+        <!-- Metadata -->
+        <div class="metadata-container">
+            
+                <!-- Reporting obligation(s) (ROD) -->
+                
+                    <dt>
+                        
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="Reporting obligations" />
+
+                        <span>Reporting obligations (ROD)</span>
+                    </dt>
+
+                    <dd>
+                        <ul>
+                            <li>
+                                <a href="http://rod.eionet.europa.eu/obligations/655" title="Monitoring and reporting of average CO2 emissions (passenger cars)">Monitoring and reporting of average CO2 emissions (passenger cars)</a>
+                            </li>
+                        </ul>
+                    </dd>
+
+
+                
+            
+
+            
+                <!-- Related website(s)/service(s) -->
+                
+            
+            <dl>
+
+                <!-- Relation: parent data sets and derived data sets -->
+                
+
+                <!-- Temporal coverage -->
+                
+    
+    
+        <div class="temporal-coverage">
+
+            <span id="temporal_dynamic">Dynamic</span>
+            <dt>
+            
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="The temporal scope of the content of the data resource. Temporal coverage will typically include a set of years or time ranges." />
+
+            <span>Temporal coverage:</span>
+        </dt>
+            <dd id="tempCoverage">2010-2014</dd>
+
+        </div>
+    
+
+
+
+                <!-- Last upload -->
+                
+                    <dt>
+                        
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="Date when the data resource was last uploaded in EEA data service. If not manually provided it will coincide with publishing date. It can later be used when a dataset is re-uploaded due to corrections and when a whole new version is not necessary." />
+
+                        <span>Last upload:</span>
+                    </dt>
+                    <dd>14 Apr 2015</dd>
+                
+
+                <!-- Geotags -->
+
+                
+    <div id="geotags">
+
+        
+  
+                  <div class="eea-location-listing">
+      
+                <dt>
+                    
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="Geographic coverage describes the locations/places covered by the content item." />
+
+                    <span>Geographic coverage:</span>
+                </dt>
+            
+          
+              <span  class="geotag">Austria,</span>
+          
+              <span  class="geotag">Belgium,</span>
+          
+              <span  class="geotag">Bulgaria,</span>
+          
+              <span  class="geotag">Croatia,</span>
+          
+              <span  class="geotag">Cyprus,</span>
+          
+              <span  class="geotag">Czech Republic,</span>
+          
+              <span  class="geotag">Denmark,</span>
+          
+              <span  class="geotag">Estonia,</span>
+          
+              <span  class="geotag">Finland,</span>
+          
+              <span  class="geotag">France,</span>
+          
+              <span  class="geotag">Germany,</span>
+          
+              <span  class="geotag">Greece,</span>
+          
+              <span  class="geotag">Hungary,</span>
+          
+              <span  class="geotag">Ireland,</span>
+          
+              <span  class="geotag">Italy,</span>
+          
+              <span  class="geotag">Latvia,</span>
+          
+              <span  class="geotag">Lithuania,</span>
+          
+              <span  class="geotag">Luxembourg,</span>
+          
+              <span  class="geotag">Malta,</span>
+          
+              <span  class="geotag">Netherlands,</span>
+          
+              <span  class="geotag">Norway,</span>
+          
+              <span  class="geotag">Poland,</span>
+          
+              <span  class="geotag">Portugal,</span>
+          
+              <span  class="geotag">Romania,</span>
+          
+              <span  class="geotag">Slovakia,</span>
+          
+              <span  class="geotag">Slovenia,</span>
+          
+              <span  class="geotag">Spain,</span>
+          
+              <span  class="geotag">Sweden,</span>
+          
+              <span  class="geotag">United Kingdom</span>
+          
+    </div>
+  
+  
+
+    </div>
+
+
+                <!-- Geographic accuracy -->
+                
+
+
+                <!-- Tags -->
+                
+                    
+                        <dt style="clear: left">
+                            
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="Tags are commonly used for ad-hoc organization of content." />
+
+                            <span>Tags:</span>
+                        </dt>
+                        <dd>
+                            
+                                <a title="co2 emissions" href="http://www.eea.europa.eu/data-and-maps/tags#c5=all&amp;c0=5&amp;b_start=0&amp;c9=co2 emissions">co2 emissions</a>
+                                 | 
+                            
+                                <a title="passenger cars" href="http://www.eea.europa.eu/data-and-maps/tags#c5=all&amp;c0=5&amp;b_start=0&amp;c9=passenger cars">passenger cars</a>
+                                 | 
+                            
+                                <a title="road transport" href="http://www.eea.europa.eu/data-and-maps/tags#c5=all&amp;c0=5&amp;b_start=0&amp;c9=road transport">road transport</a>
+                                 | 
+                            
+                                <a title="cars" href="http://www.eea.europa.eu/data-and-maps/tags#c5=all&amp;c0=5&amp;b_start=0&amp;c9=cars">cars</a>
+                                
+                            
+                        </dd>
+                    
+                
+
+                <!-- Scale of the data set -->
+                
+
+                <!-- Rights -->
+                
+                    <dt id="dataset_rights">
+                        
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="Copyright statement or other rights information on this item." />
+
+                        <span>Rights:</span>
+                    </dt>
+                    <dd>EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (http://www.eea.europa.eu/legal/copyright). Copyright holder: Directorate-General for Climate Action (DG-CLIMA).</dd>
+                
+
+                <!-- Disclaimer -->
+                
+
+                <!-- Methodology -->
+                
+
+                <!-- Unit -->
+                
+
+
+                <!-- Reference system -->
+                
+
+                <!-- Source -->
+                
+
+                    <dt>
+                        
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="Data sources used to produce this resource." />
+
+                        <span>Data sources</span>
+                    </dt>
+                    <dd><p>Directorate-General for Climate Action, 2014.<br />Data are submitted by Member States at: http://cdr.eionet.europa.eu/</p></dd>
+
+                
+
+                <!-- Owner -->
+                
+                    <dt>
+                        
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="An entity or set of entities that owns the resource. The owner is responsible for the reliability of the resource." />
+
+                        <span>Owners:</span>
+                    </dt>
+                    
+                        
+                            <dd>
+                                <a href="http://www.eea.europa.eu/data-and-maps/data-providers-and-partners/directorate-general-for-climate-action" title="Directorate-General for Climate Action (DG-CLIMA)">Directorate-General for Climate Action (DG-CLIMA)</a>
+                            </dd>
+                        
+                    
+                
+
+                <!-- Processor -->
+                
+                    <dt>
+                        
+    <img class="eea-flexible-tooltip-right" src="http://www.eea.europa.eu/information.png" title="The technical producer or processor of the resource." />
+
+                        <span>Processors:</span>
+                    </dt>
+                    
+                        
+                            <dd>
+                                <a href="http://www.eea.europa.eu/data-and-maps/data-providers-and-partners/european-environment-agency" title="European Environment Agency (EEA)">European Environment Agency (EEA)</a>
+                            </dd>
+                        
+                    
+                
+            </dl>
+
+            <dl>
+    <!-- GID (persistent link)  -->
+    <dt>Permalink to this version</dt>
+    <dd>
+      <a href="http://www.eea.europa.eu/data-and-maps/data/ds_resolveuid/8fd35679d9734a5c92b01c328fea7ea4" title="8fd35679d9734a5c92b01c328fea7ea4">8fd35679d9734a5c92b01c328fea7ea4</a>
+    </dd>
+    <!-- permalink to latest version -->
+    <dt>Permalink to latest version</dt>
+    <dd>
+      <a href="http://www.eea.europa.eu/data-and-maps/data/ds_resolveuid/TNYW84QI3A" title="TNYW84QI3A">TNYW84QI3A</a>
+    </dd>
+  </dl>
+
+            
+
+            <dl>
+                <!-- EEA management plan code -->
+                
+
+                <!-- Contact persons for EEA -->
+                
+
+            </dl>
+        </div>
+    </div>
+
+
+    <!-- Additional information -->
+    
+        <h3>Additional information</h3>
+        <div class="additionalInfo"><p>Since 2010 the EEA is collecting data from passenger cars registered in all EU Member States. The scheduling for the monitoring is the following:</p>
+<ol>
+<li>Member States shall record information for each new passenger car and van registered in its territory and transmit this information to the Commission by 28 February of each year. Data are submitted to the Central Data Repository managed by the EEA (<a href="http://cdr.eionet.europa.eu/">http://cdr.eionet.europa.eu/</a>)</li>
+<li>The EEA performs several quality checks in order to evaluate the accuracy and the quality of the dataset. On the basis of the checks and the feedbacks from Member States the EEA finalises and publishes the<strong> preliminary database</strong>. At the same time, notification letters are sent to manufacturers informing them of their provisional CO<sub>2</sub> performances.</li>
+<li>Manufacturers can, within three months of being notified of the provisional calculation, notify the Commission of any errors in the data.</li>
+<li>The EEA and the European Commission assess the manufacturers’ corrections, and, where justified, take them into account for the calculation of the manufacturer final average CO<sub>2</sub> emissions and specific emission targets. The<strong> final data</strong> and targets are to be published by 31 October each year.</li>
+</ol>
+<p> The data are required for the calculation by the Commission of the average specific emissions of CO2 from new <span data-url="@@search?sort_on=Date&amp;sort_order=reverse&amp;SearchableText=passenger cars" data-word="passenger cars">passenger cars</span> and for setting the specific emissions targets that shall be met by car manufacturers. The database provides the detailed data without taking into account other factors required for the calculation of specific emissions targets, such as phase-in percentages, credits for low emitting vehicles and E85 fuelled vehicles, or eco-innovation credits. In order to calculate the average specific emissions and specific emission targets the Commission considers only those vehicles for which emission and mass are available.</p>
+<p> </p></div>
+    
+
+    <div class="visualClear">&nbsp;</div>
+
+    
+<!-- do not show map #21121 -->
+
+</div>
+                             </div>
+
+                             
+
+                             
+                                 
+                               
+  <div id="relatedItems">
+  
+      <h2>Related content</h2>
+  
+  <div class="sorter_ctl" style="margin-bottom: 1.5em; display:none;">
+      <label for="sort_by"> <span>Sort by:</span>
+          <select name="sort_by">
+              <option value="effective">Publishing date</option>
+              <option value="title">Title</option>
+          </select>
+      </label>
+  </div>
+
+  
+      <!-- Forward, Backward and Auto relations -->
+      <div class="visualNoMarker">
+          
+              
+                  <h3 class="notoc">News and articles</h3>
+                  <div>
+    
+        <div class="photoAlbumEntry" data-effective="1448530200000" data-title="CO2 emissions from new vehicles in Europe continued to decrease in 2014">
+            <a href="http://www.eea.europa.eu/highlights/co2-emissions-from-new-vehicles" title="CO2 emissions from new vehicles in Europe continued to decrease in 2014" class="">
+
+                <span class="photoAlbumEntryWrapper">
+                    <img title="Vehicles sold in the European Union in 2014 were, on average, 2.5% more efficient than those sold the previous year, according to a new report from the European Environment Agency (EEA). The report, which updates the preliminary data published earlier this year, tracks progress towards CO2 emission targets for new passenger cars and vans." alt="CO2 emissions from new vehicles in Europe continued to decrease in 2014" src="http://www.eea.europa.eu/highlights/co2-emissions-from-new-vehicles/image_thumb" />
+                </span>
+                <span class="photoAlbumEntryTitle">CO2 emissions from new vehicles in Europe continued to decrease in 2014</span>
+                <span class="photoAlbumEntryDescription">Vehicles sold in the European Union in 2014 were, on average, 2.5% more efficient than those sold the previous year, according to a new report from the European Environment Agency (EEA). The report, which updates the preliminary data published earlier this year, tracks progress towards CO2 emission targets for new passenger cars and vans.</span>
+            </a>
+        </div>
+    
+        <div class="photoAlbumEntry" data-effective="1429099200000" data-title="New cars’ CO2 emissions well below Europe’s 2015 target">
+            <a href="http://www.eea.europa.eu/highlights/new-cars2019-co2-emissions-well" title="New cars’ CO2 emissions well below Europe’s 2015 target" class="">
+
+                <span class="photoAlbumEntryWrapper">
+                    <img title="New cars sold in 2014 emit on average 2.6 % less CO2 than those sold in 2013 and almost 7 grammes of CO2/km below the 2015 target, according to provisional data published today by the European Environment Agency. " alt="New cars’ CO2 emissions well below Europe’s 2015 target" src="http://www.eea.europa.eu/highlights/new-cars2019-co2-emissions-well/image_thumb" />
+                </span>
+                <span class="photoAlbumEntryTitle">New cars’ CO2 emissions well below Europe’s 2015 target</span>
+                <span class="photoAlbumEntryDescription">New cars sold in 2014 emit on average 2.6 % less CO2 than those sold in 2013 and almost 7 grammes of CO2/km below the 2015 target, according to provisional data published today by the European Environment Agency. </span>
+            </a>
+        </div>
+    
+
+    
+        
+
+    
+</div>
+              
+          
+              
+                  <h3 class="notoc">Visualisations produced</h3>
+                  <div>
+    
+        <div class="photoAlbumEntry" data-effective="1429098600000" data-title="Average statistics of new passenger cars by member state">
+            <a href="http://www.eea.europa.eu/data-and-maps/daviz/average-statistics-of-new-passenger-cars" title="Average statistics of new passenger cars by member state" class="">
+
+                <span class="photoAlbumEntryWrapper">
+                    <img title="registrations, average emissions and average mass of new passenger cars by member state" alt="Average statistics of new passenger cars by member state" src="http://www.eea.europa.eu/data-and-maps/daviz/average-statistics-of-new-passenger-cars/image_thumb" />
+                </span>
+                <span class="photoAlbumEntryTitle">Average statistics of new passenger cars by member state</span>
+                <span class="photoAlbumEntryDescription">registrations, average emissions and average mass of new passenger cars by member state</span>
+            </a>
+        </div>
+    
+
+    
+        
+
+    
+</div>
+              
+          
+      </div>
+  
+
+  </div>
+
+                                 
+                             
+
+                            
+                                    
+  
+
+
+
+    
+    
+    
+
+            <div class="portalMessage archiveMessage" >
+                <a class="showOlderVersions" href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/dataset_view#previous-versions">See older versions.</a>
+
+                <!-- Information about old versions -->
+                
+                    <dl id="previous-versions">
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-7" class="state-published">
+                                21 Oct 2014 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-6" class="state-published">
+                                29 Apr 2014 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-5" class="state-published">
+                                29 Oct 2013 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-4" class="state-published">
+                                29 Apr 2013 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-3" class="state-published">
+                                10 Dec 2012 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-2" class="state-published">
+                                19 Jun 2012 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-1" class="state-published">
+                                06 Dec 2011 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                        <dt class="portletItem">
+                            <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission" class="state-published">
+                                29 Jun 2011 - 
+                                Monitoring of CO2 emissions from passenger cars – Regulation 443/2009
+                            </a>
+                        </dt>
+                    </dl>
+                
+            </div>
+
+        
+
+
+
+
+
+<!-- Geographic coverage -->
+
+
+<!-- Temporal coverage -->
+
+
+<div id="socialmedia-viewlet">
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+            <h5 class="hiddenStructure">Document Actions</h5>
+            <h2 class="share-title notoc">Share with others</h2>
+
+            <table class="table-document-actions">
+                        <tr>
+                            <td>
+				<div id="socialmedia-list">
+				    <ul class="social-buttons cf">
+					<li><a href="http://twitter.com/share" 					       class="socialite twitter-share link-plain" 					       data-count="vertical" data-via="EUEnvironment" rel="nofollow" 					       target="_blank" data-url="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8"><span class="vhidden">Share on Twitter</span></a></li>
+					<li><a class="socialite googleplus-one link-plain" 					       data-size="tall" 					       rel="nofollow" 					       target="_blank" data-href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8" href="https://plus.google.com/share?url=http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8"><span class="vhidden">Share on Google+</span></a></li>
+					<li><a class="socialite facebook-like link-plain" 					       data-send="false" 					       data-layout="box_count" 					       data-width="60" 					       data-show-faces="false" 					       rel="nofollow" 					       target="_blank" data-href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8" href="http://www.facebook.com/sharer.php?u=http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8"><span class="vhidden">Share on Facebook</span></a></li>
+				    </ul>                            
+				</div> 
+                            </td>
+			    <td class="action-items">
+			       <ul>
+				   <li id="document-action-sendto">
+				       <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/sendto_form" title="">
+					  <img src="http://www.eea.europa.eu/mail_icon.png" alt="Send this" title="Send this"/>
+					  
+				       </a>
+				   </li>
+       <li id="document-action-rss">
+				       <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/RSS" title="">
+					  <img src="http://www.eea.europa.eu/rss.gif" alt="RSS feed of this listing" title="RSS feed of this listing"/>
+					  
+				       </a>
+				   </li>
+       <li id="document-action-rdf">
+				       <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/@@rdf" title="">
+					  <img src="http://www.eea.europa.eu/rdf.png" alt="RDF" title="RDF"/>
+					  
+				       </a>
+				   </li>
+       <li id="document-action-download_pdf">
+				       <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8/download.pdf" title="">
+					  <img src="http://www.eea.europa.eu/++resource++eea.pdf.images/download-pdf.png" alt="Download as PDF" title="Download as PDF"/>
+					  
+				       </a>
+				   </li>
+				   <li id="delicious">
+					<a href="http://www.delicious.com/save" onclick="window.open('http://www.delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;">
+					    <img alt="Delicious" src="http://www.eea.europa.eu/delicious20x20.png"/>
+					</a>
+				    </li>
+			       </ul> 
+       
+			   </td>
+                        </tr>
+                    </table>
+
+                    
+
+                    
+
+                </div>
+		
+		<script src="++resource++eea.socialmedia.javascripts/socialite.js"></script>
+		<script>
+				jQuery(document).ready(function(){
+					Socialite.setup({
+						twitter: {lang: 'en'},
+						googleplus: {lang: 'en-GB'},
+						facebook: {lang: 'en_GB'}
+					});
+					jQuery('div#socialmedia-list').one('mouseenter', function(){
+						Socialite.load(jQuery(this)[0]);
+					});
+				});</script>		
+		
+		
+</div>
+
+
+<div class="qrbox featured">
+  <div class="qrbox-text" style="font-size:x-small;">
+    <p><strong>For references</strong>, please go to <a href="http://www.eea.europa.eu/soer">www.eea.europa.eu/soer</a> or scan the QR code.</p>
+    <p>This briefing is part of the EEA's report <strong>The European Environment - State and Outlook 2015</strong>. The EEA is an official agency of the EU, tasked with providing information on Europe's environment.</p>
+    <p>
+      <span class="discreet">
+        PDF generated on 30 Jun 2016, 04:51 PM
+      </span>
+    </p>
+</div>
+<img class="qr" src="http://chart.apis.google.com/chart?cht=qr&amp;chld=H|0&amp;chs=70x70&amp;chl=http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8" />
+
+</div>
+
+<div class="eea-epub-viewlet" data-async="1">
+</div>
+
+<div class="eea-pdf-viewlet" data-async="1">
+</div>
+
+                            
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+
+            
+
+            
+                
+                    <div id="viewlet-below-content"><div id="category" class="documentByLine">
+  Filed under:
+  <span>
+    <a href="http://www.eea.europa.eu/@@search?Subject%3Alist=co2%20emissions" class="link-category" rel="tag">co2 emissions</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="http://www.eea.europa.eu/@@search?Subject%3Alist=passenger%20cars" class="link-category" rel="tag">passenger cars</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="http://www.eea.europa.eu/@@search?Subject%3Alist=road%20transport" class="link-category" rel="tag">road transport</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="http://www.eea.europa.eu/@@search?Subject%3Alist=cars" class="link-category" rel="tag">cars</a>
+  </span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+                
+            
+        </div>
+
+        
+
+        <div id="portal-column-one">
+        </div>
+
+        <div id="portal-column-two" class="cell width-1:4 position-3:4">
+            
+
+                
+                    
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a6e617669676174696f6e" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+  <dt class="portletHeader" id="firstHeader">
+    <a href="http://www.eea.europa.eu/data-and-maps">Data and maps</a>
+  </dt>
+
+  
+    
+
+  <dt class="portletSubMenuHeader">
+    <span class="title eea-icon-right-container">Menu</span>
+  </dt>
+
+  <dd class="portletItem lastItem">
+    <ul class="navTree navTreeLevel0">
+      
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-find">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/find" title="Global search for data and maps" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Global search</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeItemInPath navTreeFolderish section-data">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/data" title="Downloadable data about Europe's environment." class="state-published navTreeItemInPath navTreeFolderish contenttype-folder">
+          
+            <span>Datasets</span>
+        </a>
+
+    <ul class="navTree navTreeLevel1">
+        
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-data-viewers">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/data/data-viewers" title="" class="state-published navTreeFolderish contenttype-topic">
+          
+            <span>Interactive data viewers</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-external">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/data/external" title="Catalogue of all external data references used by EEA products such as indicators, maps, graphs and publications. For &quot;external data&quot; we intend data that is not directly produced and managed by EEA, rather provided by other organisations. Note: Data providers shall retain the primary responsibility for the quality of the data they produce and distribute (Art 7 EEA Data Policy)." class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>External datasets catalogue</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode navTreeFolderish section-co2-cars-emission-8">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-8" title="The Regulation (EC) No 443/2009 requires Member States to record information for each new passenger car registered in its territory. Every year, each Member State shall submit to the Commission all the information related to their new registrations. In particular, the following details are required for each new passenger car registered: manufacturer name, type approval number, type, variant, version, make and commercial name, specific emissions of CO2, mass of the vehicle, wheel base, track width, engine capacity, fuel type and fuel mode. Additional information, such as engine power, were also submitted. 
+Data for EU-28 are reported in the main database. 
+" class="state-published navTreeCurrentItem navTreeCurrentNode navTreeFolderish contenttype-data">
+          
+            <span>Monitoring of CO2 emissions from passenger cars – Regulation 443/2009</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-figures">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/figures" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Maps and graphs</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-explore-interactive-maps">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/explore-interactive-maps" title="In this section you will find interactive tools enabling you to examine environmental data and to explore maps of Europe." class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Interactive maps</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-indicators">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/indicators" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Indicators</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-data-providers-and-partners">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/data-providers-and-partners" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Data providers and partners</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-european-data-centres">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/european-data-centres" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>European data centres</span>
+        </a>
+
+    
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-daviz">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/daviz" title="" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Data visualisations</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+  </dd>
+
+
+
+  
+    
+
+  <dt class="portletSubMenuHeader">
+    <span class="title eea-icon-right-container">Data services</span>
+  </dt>
+
+  <dd class="portletItem lastItem">
+    <ul class="navTree navTreeLevel0">
+      
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-uwwtd">
+
+    
+
+        <a href="http://www.eea.europa.eu/data-and-maps/uwwtd" title="The UWWTD dataviewer enables an easy access and analysis of the data reported under the article 15 of the UWWTD. 
+The information is presented in interactive tables, maps and charts, and can be downloaded or printed based on your selections. 
+" class="state-published navTreeFolderish contenttype-folder">
+          
+            <span>Urban Waste Water Treatment Directive data viewer</span>
+        </a>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+  </dd>
+
+
+
+  
+    
+
+  
+    
+
+  
+</dl>
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954450a706f72746c65745f636d735f6163746976697479" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777772f534954450a706f72746c65745f636d735f6163746976697479">
+
+
+  
+    
+
+
+
+
+  
+
+  
+
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a706f72746c65745f67617a65747465" data-portlethash="706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7777770a706f72746c65745f67617a65747465">
+
+
+  
+    <div>
+       <div>
+
+      <!-- the fancy box email subscription -->
+      <div style="display:none;">
+          <div style="width: 280px; height: 250px;" id="subscribe-popup">
+              <div>
+
+<dl class="portlet portlet-subscribtion">
+      <dt>Subscriptions</dt>
+      <dd class="portletItem">
+        <span><span><a href="http://www.eea.europa.eu/subscription/targeted-subscription">Sign up</a></span> to receive our reports (print and/or electronic) and quarterly e-newsletter.</span>
+      </dd>
+
+</dl>
+</div>
+          </div>
+      </div>
+
+      <dl class="portlet" id="portlet-followus">
+        <dt class="portletHeader">Follow us</dt>
+        <dd>
+            <a id="twitter-link" title="Follow us on Twitter" href="http://twitter.com/euenvironment">&nbsp;</a>
+        </dd>
+        <dd>
+            <a id="facebook-link" title="Follow us on Facebook" href="http://www.facebook.com/European.Environment.Agency">&nbsp;</a>
+        </dd>
+        <dd>
+            <a id="youtube-link" title="Follow us on YouTube" href="http://www.youtube.com/user/EEAvideos">&nbsp;</a>
+        </dd>
+        <dd>
+            <a id="rss-link" title="Subscribe to RSS Feed" class="link-plain" href="http://www.eea.europa.eu/subscription/news-feeds">&nbsp;</a>
+        </dd>
+        <dd>
+            <a id="email-link" title="Subscribe by email" href="http://www.eea.europa.eu/subscription/targeted-subscription">&nbsp;</a>
+        </dd>
+      </dl>
+</div>
+</div>
+  
+
+  
+
+</div>
+
+
+
+
+                
+            
+        </div>
+        
+    </div>
+    <div class="visualClear"><!-- --></div>
+ </div>
+    <!-- end column wrapper -->
+
+</div>
+
+
+    
+        <div class="row">
+    <div id="footer-wrapper">
+        <div id="bg-wrapper">
+
+                <div id="portal-footer">
+                    
+
+
+
+                    
+                 </div>
+        </div>
+    </div>
+</div>
+
+<div id="portal-colophon">
+    
+    <div class="colophonWrapper">
+        <div class="colophon-left">
+            
+                <a href="http://www.eea.europa.eu">European Environment Agency (EEA)</a>
+                <br/>
+                
+                    Kongens Nytorv 6<br/> 1050 Copenhagen K<br/> Denmark
+                    <br/> 
+                    Phone: +45 3336 7100
+                
+            
+        </div>
+
+        
+        <div class="colophon-right colophon-links">
+            <span>
+                The European Environment Agency (EEA) is an agency of the European Union.
+                <br/>
+                <a href="http://www.eea.europa.eu/legal/">Legal notice</a>
+            </span>
+             <img width="50" height="37" alt="EU flag" title="European Union Flag" src="http://www.eea.europa.eu/eu-flag.gif" />
+            <br />  
+        </div>
+
+        <div class="footer-clear">&nbsp;</div>
+
+        
+        
+    </div>
+    <div  class="colophon-middle">
+       <p class="discreet colophon-links">
+            engineered by<br />
+            <a href="http://www.eea.europa.eu/help/contact-info">EEA Web Team</a>
+       </p>
+
+        <p class="discreet colophon-links">
+                    <a rel="license" href="http://creativecommons.org/licenses/by/2.5/dk/deed.en_GB" title="Creative Commons Attribution License">
+                    <img alt="Creative Commons Attribution License" style="border-width: 0pt;" width="80" height="15" src="http://www.eea.europa.eu/creativecommons-by-2.5-dk-80x15.png"/>
+                    </a>
+
+                    <a href="http://www.eea.europa.eu/login_form"                         title="CMS login"><strong>CMS login</strong></a>
+                    <a href="https://svn.eionet.europa.eu/repositories/Zope/trunk/www.eea.europa.eu/trunk/docs/"                         title="Software updates history">Software updates history</a>
+                    <a href="http://www.eea.europa.eu/code"                         title="Software updates history">Code for developers</a>
+                    <a href="@@invalidate_cache" rel="nofollow" title="Refresh this page">Refresh this page</a>
+        </p>
+    </div>
+    
+</div>
+
+
+<!-- traceview endtag --><script type="text/javascript">this._tly&&this._tly.measure("domload");</script>
+
+<div id="viewlet-cookiepolicy" class="portalMessage" style="display:none">
+    <h1 id="tlspu_cookiepolicy_title">This site uses cookies</h1>
+    <p id="tlspu_cookiepolicy_message">We use cookies to record some preference settings and to analyse how visitors use our web site. Cookies do not contain any personal information about you. If you wish, see <a href="http://www.aboutcookies.org/how-to-delete-cookies/" title="how to delete or disable cookies">how to delete/disable cookies in your web browser</a> but then our site may not work correctly. See also <a href="http://www.eea.europa.eu/legal/privacy" title="our privacy policy">our privacy policy</a>.</p>
+    <form id="tlspu_cookiepolicy_form">
+    <button id="tlspu_cookiepolicy_button" value="hide">I am fine with this</button>
+    </form>
+</div>
+
+
+    
+
+</body>
+</html>
+
+
